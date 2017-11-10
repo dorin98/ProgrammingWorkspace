@@ -64,9 +64,9 @@ void diff(int A[], int B[])
 	for (int i = 1 ; i <= A[0] ; ++i)
 	{
 		R[i] = A[i] - (B[i] + T);
-       	if (R[i] < 0) T = 1; 
-       	else T = 0;
-       	if (T > 0) R[i] += 10;
+       		if (R[i] < 0) T = 1; 
+       		else T = 0;
+       		if (T > 0) R[i] += 10;
        	// Cele 3 linii de mai sus se pot reduce la urmatoarea expresie: R[i] += ( T = (R[i] = A[i] - B[i] + T) < 0) ? 10 : 0. #justCthings
    	}
   	while (R[R[0]] <= 0) R[0]--;
