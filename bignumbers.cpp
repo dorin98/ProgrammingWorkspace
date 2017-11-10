@@ -46,7 +46,7 @@ void add(int A[], int B[])
 	}
 	// Daca in final ramane transport, il adaugam. Ex. 73+31=104 -> Trebuie adaugat acel 1.
 	if (T>0)
-		R[A[0]+1] = T;
+		R[N+1] = T;
 	//Afisarea rezultatului
 	cout<<"Suma: ";
 	for (int i = N + T ; i ; --i)
