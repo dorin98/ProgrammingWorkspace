@@ -1,7 +1,7 @@
 /*		Big Numbers
 	Comanda de rulare: g++ bignumbers.cpp */
 #include <iostream>
-#define max_size 1<<10 // Numarul maxim de cifre este 2^10 - 1, pastrand in variabila ramasa dimensiunea numarului
+#define max_size 1<<10 // Numarul maxim de cifre este 2^10 - 1, pastrand in variabila ramasa dimensiunea numarului.
 
 using namespace std;
 
