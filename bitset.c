@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define uint int
+#define uint unsigned int
 #define maxSize 10
 #define maxLength 80
 
