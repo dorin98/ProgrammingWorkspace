@@ -88,7 +88,7 @@ void set_intersection(bitSet A, bitSet B)
 	set_print(C);
 }
 
-void set_difference(bitSet A,bitSet B)
+void set_difference(bitSet A, bitSet B)
 {
 	bitSet C;
 	for (int i = 0 ; i < maxSize ; ++i)
