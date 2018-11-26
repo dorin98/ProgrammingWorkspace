@@ -26,7 +26,7 @@ def get_SNOWSTORM():
     r = "{0:08b}".format(random.randint(0,R))
     dmg = "{0:08b}".format(random.randint(1,25))
     # CAREFUL TO ENDIANNESS 
-    theNo = x + y + r + dmg
+    theNo = dmg + r + y + x
     print 'SNOWSTORM', int(theNo, 2)
 
 def main():
