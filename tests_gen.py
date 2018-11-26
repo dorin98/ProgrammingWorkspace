@@ -12,7 +12,7 @@ def get_MOVE(P):
     ID = random.randint(0,P-1)
     for i in range(0,random.randint(3,5)):
         moves += chr(my_randoms[random.randint(0,3)])
-    print ID, moves
+    print 'MOVE', ID, moves
 
 def get_PRINTSCOREBOARD():
     print 'PRINT_SCOREBOARD'
@@ -36,6 +36,7 @@ def main():
     testID = int(input("testID = "))
     test = 'test' + str(testID) + '.in'
     sys.stdout = open(test, 'w')
+    print R, P
 
     # PRINT MAP
     for i in range(0,2*R+1):
